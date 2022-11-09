@@ -1,1 +1,15 @@
+on:
+  push: 
+    branches:
+      - master
 
+
+
+jobs:
+  build:
+    runs-on: windows 
+
+
+    steps:
+      - name: 'Testing Github action'
+        run: pwd 
