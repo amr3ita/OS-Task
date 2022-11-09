@@ -13,3 +13,8 @@ jobs:
     steps:
       - name: 'print folder contents'
         run: ls
+
+      - uses: action/checkout@v3  
+
+      - name: 'print folder contents'
+        run: ls
