@@ -11,10 +11,7 @@ jobs:
 
 
     steps:
-      - name: 'print folder contents'
-        run: ls
-
       - uses: actions/checkout@v3  
 
-      - name: 'print folder contents'
-        run: ls
+      - name: "Login to Docker hub"
+        run: docker login --username amr3ita --paassword dckr_pat_5RCwYRKXfu1DRl6NWsMszlTd7-s
